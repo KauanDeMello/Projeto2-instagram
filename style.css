@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #e5e5e5;
+  font-family: 'Roboto', sans-serif;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  text-align: center;
+  color: rgba(5, 5, 5, 0.699);
+}
+.top{
+  background-color: white;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.topcontainer{
+  width: 935px;
+  height: 54px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+.logo{
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  width: 140px;
+}
+.logo > ion-icon{
+  font-size: 20px;
+}
+.logo > img {
+  width: 103px;
+}
+.line{
+  background-color: #dbdbdb;
+  height: 22px;
+  width: 1px;
+}
+.borda{
+  border: 1px solid #dbdbdb;
+}
+.search{
+  display: flex;
+  align-items: center;
+}
+.search > input{
+  width: 215px;
+  height: 20px;
+  border: 2px solid #DBDBDB;
+  border-radius: 3px;
+  background-color: #f2efef;
+}
+.search > input::placeholder{
+  font-size: 10px;
+  color: gray;
+  text-align: center;
+
+}
+.buttons{
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  width: 115px;
+}
+.buttons > ion-icon{
+  font-size: 18px;
+}
+
+.content{
+  width: 935px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.p-content{
+  width: 614px;
+}
+.storys{
+  background-color: white;
+  width: 100%;
+  height: 118px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  overflow: hidden;
+  margin-top: 88px;
+}
+
+.storys > div > img {
+  background-image: url("./Story.png");
+  background-size: cover;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.storys ion-icon{
+  position: relative;right: 5px;
+  font-size: 26px;
+  color: #dbdbdb;
+}
+.profile {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin: 0 4px;
+}
+.post{
+  margin-top: 24px;
+  background-color: white;
+  width: 614px;
+  border: 1px solid #dbdddb;
+
+}
+.postitle{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  height: 50px;
+}
+
+.postitle img{
+  width: 32px;
+  height: 32px;
+  margin: 0 0;
+}
+.postitle h4{
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 20px;
+}
+.postitle div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postmedia img{
+  width: 612px;
+  height: 612px;
+  object-fit: cover;
+}
+
+.postbuttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+
+.feed{
+  width: 100%;
+  height: 1500px;
+}
+.sidebar{
+  position: relative ;
+  bottom: 560px;
+  width: 293px;
+  height: 500px;
+  margin-top: 88px;
+}
+.sidebar-title {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.sidebar-title img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.sidebar-title p {
+  font-size: 14px;
+  font-weight: 300;
+  margin: 2px 0;
+}
+.sidebar-title p:first-child {
+  font-weight: 500;
+}
+.sidebar-sugestoes {
+  margin-top: 10px;
+}
+.sidebar-sugestoes > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.sidebar-sugestoes span {
+  font-size: 12px;
+  font-weight: 500;
+  color: black;
+}
+.sidebar-sugestoes span:first-child {
+  color: #8e8e8e;
+}
+
+.sidebar-sugestoes img {
+  width: 32px;
+  height: 32px;
+}
+.sugestao > div {
+  display: flex;
+}
+
+.sugestao > div > img {
+  margin-right: 20px;
+}
+
+.sugestao-texto p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.sugestao-texto p:last-child {
+  font-size: 12px;
+  font-weight: 400;
+}
+.sugestao > span {
+  font-size: 12px;
+  font-weight: 500;
+  color: #139ef2;
+}
+
